@@ -19,7 +19,7 @@ tools:
   - item: Postman
   - item: MongoDB
 
-cloud :
+Cloud :
   - item: Azure
   - item: aws
   
