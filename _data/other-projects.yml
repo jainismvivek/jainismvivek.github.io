@@ -33,7 +33,7 @@
     - thing: azure
     - thing: c#
 
-- name: Crowd DJ
+- name: text sentiment analysis
   url: https://github.com/crowddj/crowddj-react
   code: https://github.com/crowddj/crowddj-react
   description:
