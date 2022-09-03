@@ -1,0 +1,45 @@
+# Site settings
+name: Vivek jain
+title: Vivek jain | Front End Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://jainsmvivek.github.io/
+baseurl: ''
+email: vivekjainism@outlook.com
+cover: https://jainismvivek.github.io/img/og.png
+logo: https://jainismvivek.github.io/img/emojis/technologist.png
+resume: https://jainismvivek.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:vivekjainism@outlook.com
+  - title: twitter
+    url: https://twitter.com/jainsmvivek
+  - title: instagram
+    url: https://instagram.com/jainismvivek
+  - title: codepen
+    url: http://codepen.io/jainsmvivek
+  - title: github
+    url: https://github.com/jainsmvivek
+  - title: linkedin
+    url: https://https://www.linkedin.com/in/vivek-jain-104b79119/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
